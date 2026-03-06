@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Bottle body -->
+    <path
+        android:fillColor="#1697E0"
+        android:pathData="M8,6
+            h8
+            c0.6,0 1,0.4 1,1
+            v11
+            c0,1.1 -0.9,2 -2,2
+            h-6
+            c-1.1,0 -2,-0.9 -2,-2
+            V7
+            c0,-0.6 0.4,-1 1,-1z" />
+
+    <!-- Bottle cap -->
+    <path
+        android:fillColor="#84DCF7"
+        android:pathData="M9,3
+            h6
+            c0.6,0 1,0.4 1,1
+            v2
+            h-8
+            V4
+            c0,-0.6 0.4,-1 1,-1z" />
+
+    <!-- Bottle label -->
+    <path
+        android:fillColor="#EAF7FF"
+        android:pathData="M9,10
+            h6
+            c0.6,0 1,0.4 1,1
+            v3
+            c0,0.6 -0.4,1 -1,1
+            h-6
+            c-0.6,0 -1,-0.4 -1,-1
+            v-3
+            c0,-0.6 0.4,-1 1,-1z" />
+
+    <!-- Capsule -->
+    <path
+        android:fillColor="#35B6EE"
+        android:pathData="M15.8,15.2
+            l2.3,-2.3
+            c0.8,-0.8 2,-0.8 2.8,0
+            c0.8,0.8 0.8,2 0,2.8
+            l-2.3,2.3
+            c-0.8,0.8 -2,0.8 -2.8,0
+            c-0.8,-0.8 -0.8,-2 0,-2.8z" />
+
+    <!-- Capsule split -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17.1,13.9
+            l2.1,2.1
+            l-0.7,0.7
+            l-2.1,-2.1z" />
+
+</vector>
