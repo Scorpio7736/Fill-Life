@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lifefill_primary">#90CAF9</color>
+    <color name="lifefill_primary_dark">#64B5F6</color>
+    <color name="lifefill_accent">#64B5F6</color>
+    <color name="lifefill_light_blue">#1A237E</color>
+    <color name="lifefill_bg">#121212</color>
+    <color name="lifefill_surface">#1E1E1E</color>
+    <color name="lifefill_on_surface">#E0E0E0</color>
+    <color name="lifefill_on_primary">#000000</color>
+
+    <!-- For Drawables that use white -->
+    <color name="white">#1E1E1E</color>
+    <!-- For text that uses black -->
+    <color name="black">#E0E0E0</color>
+</resources>
