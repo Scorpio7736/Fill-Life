@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#F2F2F2"
+        android:pathData="M0,0h512v512h-512z" />
+
+    <!-- ===== Shield mark ===== -->
+
+    <!-- Left blue shield body -->
+    <path
+        android:fillColor="#1EA4E9"
+        android:pathData="M256,64
+            C226,75 193,90 163,112
+            C148,123 142,140 142,168
+            L142,216
+            C142,293 188,349 256,388
+            C217,364 188,330 173,284
+            C162,249 162,187 166,159
+            C170,138 183,129 204,116
+            C222,104 240,96 256,91
+            C283,99 312,110 342,132
+            L360,112
+            C330,93 294,74 256,64Z" />
+
+    <!-- Top light section -->
+    <path
+        android:fillColor="#A8DDF5"
+        android:pathData="M256,91
+            C283,99 312,110 342,132
+            L360,112
+            C330,93 294,74 256,64
+            C226,75 193,90 163,112
+            C206,87 234,78 256,91Z" />
+
+    <!-- Lower right light sweep -->
+    <path
+        android:fillColor="#B7E4F6"
+        android:pathData="M378,173
+            C374,226 356,274 322,312
+            C300,338 278,357 256,373
+            C238,366 220,355 202,340
+            C249,332 285,311 314,280
+            C344,251 366,215 378,173Z" />
+
+    <!-- Inner white swoosh -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M327,231
+            C309,267 280,296 240,318
+            C280,313 315,292 341,262
+            C357,245 369,226 378,204
+            C364,215 347,224 327,231Z" />
+
+    <!-- Medical cross -->
+    <path
+        android:fillColor="#35B6EE"
+        android:pathData="M239,150
+            h34
+            a8,8 0 0 1 8,8
+            v26
+            h26
+            a8,8 0 0 1 8,8
+            v22
+            a8,8 0 0 1 -8,8
+            h-26
+            v26
+            a8,8 0 0 1 -8,8
+            h-34
+            a8,8 0 0 1 -8,-8
+            v-26
+            h-26
+            a8,8 0 0 1 -8,-8
+            v-22
+            a8,8 0 0 1 8,-8
+            h26
+            v-26
+            a8,8 0 0 1 8,-8z" />
+
+    <!-- Accent dot -->
+    <path
+        android:fillColor="#A8DDF5"
+        android:pathData="M386,146
+            m-14,0
+            a14,14 0 1,0 28,0
+            a14,14 0 1,0 -28,0" />
+
+    <!-- ===== LifeFill text (blocky custom vector approximation) ===== -->
+
+    <!-- L -->
+    <path
+        android:fillColor="#1697E0"
+        android:pathData="M116,403h18v88h46v15h-64z" />
+
+    <!-- i -->
+    <path
+        android:fillColor="#1697E0"
+        android:pathData="M195,410
+            m-9,0
+            a9,9 0 1,0 18,0
+            a9,9 0 1,0 -18,0
+            M188,430h16v76h-16z" />
+
+    <!-- f -->
+    <path
+        android:fillColor="#1697E0"
+        android:pathData="M231,506h-16v-61h-13v-15h13v-8
+            c0,-18 10,-29 28,-29
+            c7,0 12,1 16,3v15
+            c-4,-2 -8,-3 -13,-3
+            c-10,0 -15,5 -15,16v6h24v15h-24z" />
+
+    <!-- e -->
+    <path
+        android:fillColor="#1697E0"
+        android:pathData="M302,468
+            c0,-15 -9,-25 -23,-25
+            c-13,0 -23,10 -24,25z
+            M319,480h-64
+            c2,15 12,24 28,24
+            c10,0 18,-3 25,-9l9,11
+            c-10,9 -21,14 -35,14
+            c-28,0 -46,-19 -46,-46
+            c0,-27 19,-46 45,-46
+            c26,0 40,18 40,45
+            c0,2 0,5 -1,7z" />
+
+    <!-- F -->
+    <path
+        android:fillColor="#35B6EE"
+        android:pathData="M340,403h64v15h-46v24h42v15h-42v49h-18z" />
+
+    <!-- i -->
+    <path
+        android:fillColor="#5AC8F0"
+        android:pathData="M424,410
+            m-9,0
+            a9,9 0 1,0 18,0
+            a9,9 0 1,0 -18,0
+            M417,430h16v76h-16z" />
+
+    <!-- l -->
+    <path
+        android:fillColor="#72D4F4"
+        android:pathData="M449,403h16v103h-16z" />
+
+    <!-- l -->
+    <path
+        android:fillColor="#84DCF7"
+        android:pathData="M480,403h16v103h-16z" />
+
+    <!-- ===== Tagline ===== -->
+
+    <!-- left line -->
+    <path
+        android:fillColor="#8EA7C2"
+        android:pathData="M98,543h46v2h-46z" />
+
+    <!-- right line -->
+    <path
+        android:fillColor="#8EA7C2"
+        android:pathData="M368,543h46v2h-46z" />
+
+    <!-- tagline text as simple geometric forms -->
+    <!-- For XML vector simplicity, this is better handled with TextView in layout.
+         Placeholder center bar kept subtle to mirror the composition. -->
+    <path
+        android:fillColor="#6B86A3"
+        android:pathData="M176,540h160v6h-160z" />
+
+</vector>
