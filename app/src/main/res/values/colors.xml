@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Mode Colors -->
+    <color name="lifefill_primary">#1EA4E9</color>
+    <color name="lifefill_primary_dark">#1697E0</color>
+    <color name="lifefill_accent">#35B6EE</color>
+    <color name="lifefill_light_blue">#A8DDF5</color>
+    <color name="lifefill_bg">#F2F2F2</color>
+    <color name="lifefill_surface">#FFFFFF</color>
+    <color name="lifefill_on_surface">#000000</color>
+    <color name="lifefill_on_primary">#FFFFFF</color>
+
+    <!-- Logo Specific Colors (Light) -->
+    <color name="lifefill_logo_sweep">#B7E4F6</color>
+    <color name="lifefill_logo_i">#5AC8F0</color>
+    <color name="lifefill_logo_l1">#72D4F4</color>
+    <color name="lifefill_logo_l2">#84DCF7</color>
+
+    <!-- Dark Mode Colors -->
+    <color name="lifefill_primary_night">#90CAF9</color>
+    <color name="lifefill_primary_dark_night">#64B5F6</color>
+    <color name="lifefill_accent_night">#64B5F6</color>
+    <color name="lifefill_light_blue_night">#1A237E</color>
+    <color name="lifefill_bg_night">#121212</color>
+    <color name="lifefill_surface_night">#1E1E1E</color>
+    <color name="lifefill_on_surface_night">#E0E0E0</color>
+    <color name="lifefill_on_primary_night">#000000</color>
+
+    <!-- Legacy/Temporary - to be replaced -->
+    <color name="mychart_green">#005A32</color>
+    <color name="mychart_light_green">#E6F2ED</color>
+    <color name="mychart_bg">#F2F2F2</color>
+    <color name="mychart_red">#C6102E</color>
+</resources>

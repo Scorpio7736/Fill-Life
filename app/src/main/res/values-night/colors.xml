@@ -9,6 +9,12 @@
     <color name="lifefill_on_surface">#E0E0E0</color>
     <color name="lifefill_on_primary">#000000</color>
 
+    <!-- Logo Specific Colors (Night) -->
+    <color name="lifefill_logo_sweep">#42A5F5</color>
+    <color name="lifefill_logo_i">#64B5F6</color>
+    <color name="lifefill_logo_l1">#90CAF9</color>
+    <color name="lifefill_logo_l2">#BBDEFB</color>
+
     <!-- For Drawables that use white -->
     <color name="white">#1E1E1E</color>
     <!-- For text that uses black -->

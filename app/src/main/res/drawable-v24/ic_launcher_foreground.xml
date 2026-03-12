@@ -1,0 +1,90 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Left blue shield body -->
+        <path
+            android:fillColor="#1EA4E9"
+            android:pathData="M54,12
+                C46,15 37,18 29,24
+                C25,27 23,31 23,38
+                L23,50
+                C23,70 35,84 54,95
+                C43,88 35,79 31,67
+                C28,58 28,42 29,35
+                C30,29 34,27 40,23
+                C45,20 50,18 54,17
+                C61,19 69,22 77,28
+                L82,22
+                C74,17 64,13 54,12Z" />
+
+        <!-- Right light swoosh -->
+        <path
+            android:fillColor="#A8DDF5"
+            android:pathData="M54,17
+                C61,19 69,22 77,28
+                L82,22
+                C74,17 64,13 54,12
+                C46,15 37,18 29,24
+                C41,17 48,14 54,17Z" />
+
+        <!-- Lower right light shield sweep -->
+        <path
+            android:fillColor="#B7E4F6"
+            android:pathData="M87,40
+                C86,54 81,67 72,77
+                C66,84 60,89 54,93
+                C49,91 44,88 39,84
+                C52,82 62,76 70,68
+                C78,60 84,50 87,40Z" />
+
+        <!-- White inner swoosh cut -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M74,56
+                C69,66 61,74 50,80
+                C61,79 71,73 78,65
+                C82,60 85,55 87,49
+                C83,52 79,54 74,56Z" />
+
+        <!-- Medical cross -->
+        <path
+            android:fillColor="#35B6EE"
+            android:pathData="M49,34
+                h10
+                a2,2 0 0 1 2,2
+                v8
+                h8
+                a2,2 0 0 1 2,2
+                v6
+                a2,2 0 0 1 -2,2
+                h-8
+                v8
+                a2,2 0 0 1 -2,2
+                h-10
+                a2,2 0 0 1 -2,-2
+                v-8
+                h-8
+                a2,2 0 0 1 -2,-2
+                v-6
+                a2,2 0 0 1 2,-2
+                h8
+                v-8
+                a2,2 0 0 1 2,-2z" />
+
+        <!-- Accent dot -->
+        <path
+            android:fillColor="#A8DDF5"
+            android:pathData="M88,34
+                m-4,0
+                a4,4 0 1,0 8,0
+                a4,4 0 1,0 -8,0" />
+    </group>
+</vector>

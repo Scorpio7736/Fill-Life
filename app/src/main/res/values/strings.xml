@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Life Fill</string>
+    <string name="apptitle">Life Fill</string>
+    <string name="epic_logo_text">Life Fill\nMobile</string>
+    <string name="mychart_title">Life Fill</string>
+    <string name="switch_patients">Switch\nPatients</string>
+    <string name="avatar_initial">L</string>
+    <string name="user_name">NO_USER</string>
+    <string name="visits">Visits</string>
+    <string name="menu">Menu</string>
+    <string name="medications">Medications</string>
+    <string name="allergies">Allergies</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="messages">Messages</string>
+    <string name="test_results">Test Results</string>
+    <string name="message_count">5</string>
+    <string name="message_title">Test 5/27</string>
+    <string name="message_preview">Test 5/27</string>
+    <string name="help_desk">Life Fill\nSupport</string>
+    <string name="view_message">View Message</string>
+    <string name="patient_t">T</string>
+    <string name="pretend_pin_text">Verify</string>
+    <string name="pin_icon_description">Pin Icon</string>
+    <string name="verify_title">Enter PIN</string>
+    <string name="verify_instruction">Please enter your 4-digit PIN to continue.</string>
+</resources>

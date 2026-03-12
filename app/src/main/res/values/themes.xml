@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LifeFill" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/lifefill_primary</item>
+        <item name="colorSecondary">@color/lifefill_accent</item>
+        <item name="android:windowBackground">@color/lifefill_bg</item>
+        <item name="android:statusBarColor">@color/lifefill_light_blue</item>
+    </style>
+
+    <style name="Theme.LifeFill" parent="Base.Theme.LifeFill" />
+</resources>

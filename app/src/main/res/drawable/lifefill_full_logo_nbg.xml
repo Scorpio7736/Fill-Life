@@ -5,8 +5,6 @@
     android:viewportWidth="512"
     android:viewportHeight="512">
 
-    <!-- Background removed to be transparent -->
-
     <!-- Shift everything up by 50 to fit within the viewport and center vertically -->
     <group android:translateY="-50">
 
@@ -30,7 +28,7 @@
 
         <!-- Top light section -->
         <path
-            android:fillColor="@color/lifefill_logo_sweep"
+            android:fillColor="@color/lifefill_light_blue"
             android:pathData="M256,91
                 C283,99 312,110 342,132
                 L360,112
@@ -84,7 +82,7 @@
 
         <!-- Accent dot -->
         <path
-            android:fillColor="@color/lifefill_primary"
+            android:fillColor="@color/lifefill_light_blue"
             android:pathData="M386,146
                 m-14,0
                 a14,14 0 1,0 28,0
