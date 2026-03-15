@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955710385531",
+    "project_id": "lifefill-1eef8",
+    "storage_bucket": "lifefill-1eef8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955710385531:android:461407a7288119340461de",
+        "android_client_info": {
+          "package_name": "com.example.lifefill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955710385531-28p99s9o69qd1kmadt87phj34jaetv3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUQwhw_H1e5JjEe6ZKEl2R23jd1KluDzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955710385531-28p99s9o69qd1kmadt87phj34jaetv3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
