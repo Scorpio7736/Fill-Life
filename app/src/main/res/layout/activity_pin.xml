@@ -1,70 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pin_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
-    tools:context=".PinActivity">
+    android:fillViewport="true"
+    android:background="#F3F3F3">
 
-    <ImageView
-        android:id="@+id/pin_icon"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="64dp"
-        android:contentDescription="@string/pin_icon_description"
-        android:src="@drawable/ic_pin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tv_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/verify_title"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pin_icon" />
-
-    <TextView
-        android:id="@+id/tv_instruction"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/verify_instruction"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
-
-    <EditText
-        android:id="@+id/et_pin"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:gravity="center"
-        android:hint="****"
-        android:inputType="numberPassword"
-        android:maxLength="4"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_instruction" />
-
-    <Button
-        android:id="@+id/pretend_pin_button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:padding="12dp"
-        android:text="@string/pretend_pin_text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_pin" />
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- Top Logo/Image -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+        <!-- Login Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/loginButton2"
+                android:layout_width="316dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#19A7D8"
+                android:text="Dev Bypass(Temp)"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/lifeFillIdLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LifeFill ID"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#19A7D8"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Enter email or username"
+                android:background="@android:drawable/edit_text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="18sp"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:layout_marginBottom="6dp" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Enter password"
+                android:background="@android:drawable/edit_text"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="18sp"
+                android:inputType="textPassword"
+                android:layout_marginBottom="14dp" />
+
+            <TextView
+                android:id="@+id/forgotText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot login information?"
+                android:textSize="18sp"
+                android:textColor="#19A7D8"
+                android:layout_marginBottom="30dp" />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textSize="22sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#19A7D8"
+                android:layout_marginBottom="24dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/whatIsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is LifeFill?"
+            android:textSize="18sp"
+            android:textColor="#19A7D8"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Bottom row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Need help?"
+                android:textSize="18sp"
+                android:textColor="#19A7D8"
+                android:layout_marginEnd="60dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textSize="18sp"
+                android:textColor="#19A7D8" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
